@@ -69,6 +69,12 @@ body {
   margin-bottom: 3.2rem;
 }
 
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+
 .hero-img {
   width: 100%;
 }
