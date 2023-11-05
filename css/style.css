@@ -32,14 +32,31 @@
 
 */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+html {
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
 body {
-    font-family: sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #555;
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.hero {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+
+  background-color: azure;
+}
+
+.hero-img {
+  width: 100%;
 }
