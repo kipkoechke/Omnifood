@@ -56,6 +56,18 @@ body {
 /**********************************/
 /* GENERAL REUSABLE COMPONENTS */
 /**********************************/
+
+.container{
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    gap: 9.6rem;
+}
+
 .heading-primary {
   font-size: 5.2rem;
   font-weight: 700;
@@ -164,7 +176,7 @@ body {
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-background-color: #cf711f;
+  background-color: #cf711f;
 }
 
 /**********************************/
