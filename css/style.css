@@ -98,6 +98,17 @@ body {
   background-color: #cf711f;
 }
 
+.btn--outline:link,
+.btn--outline:visited {
+    background-color: #fff;
+    color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+    background-color: #fdf2e9;
+}
+
 .hero-img {
   width: 100%;
 }
