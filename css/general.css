@@ -72,7 +72,7 @@ body {
 
 .grid {
   display: grid;
-  column-gap: 6.0rem;
+  column-gap: 6rem;
   row-gap: 9.6rem;
 }
 
@@ -87,7 +87,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--center-v{
+.grid--center-v {
   align-items: center;
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .heading-tertiary {
-  font-size: 3.0rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
 }
@@ -163,10 +163,37 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-.margin-right-sm {
-  margin-right: 1.6rem;
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
 }
 
-strong{
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
+
+/**********************************/
+/* HELPER/SETTINGS CLASSES */
+/**********************************/
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+strong {
   font-weight: 500;
 }
