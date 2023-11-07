@@ -70,7 +70,7 @@ Instead, 1rem = 1em = 16px */
     /* Percentage of user's browser font-size setting 
    8px / 16px = 50%
   */
-    font-size: 56.25%;
+    font-size: 50%;
   }
 
   .hero {
