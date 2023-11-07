@@ -17,6 +17,10 @@ Instead, 1rem = 1em = 16px */
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
+
+  .logos img{
+  height:3rem;
+}
 }
 
 /**********************************/
@@ -194,6 +198,10 @@ Instead, 1rem = 1em = 16px */
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .logos img{
+  height:2rem;
+}
 
   .diets {
     grid-column: 1/-1;
