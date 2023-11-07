@@ -62,7 +62,7 @@ Instead, 1rem = 1em = 16px */
 }
 
 /**********************************/
-/* BELOW 944px (Landscape Tablet) */
+/* BELOW 944px (Tablets) */
 /**********************************/
 
 @media (max-width: 59em) {
@@ -148,7 +148,7 @@ Instead, 1rem = 1em = 16px */
     /* Hide Navigation */
     /* Allows NO transitions at all */
     /* display: none; */
-    
+
     /* 1)Hide the element visually */
     opacity: 0;
 
