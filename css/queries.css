@@ -147,7 +147,8 @@ Instead, 1rem = 1em = 16px */
 
     /* Hide Navigation */
     /* Allows NO transitions at all */
-    display: none;
+    /* display: none; */
+    
     /* 1)Hide the element visually */
     opacity: 0;
 
