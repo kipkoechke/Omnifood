@@ -264,7 +264,7 @@
 }
 
 /**********************************/
-/* SECTION SECTION */
+/* TESTIMONIALS SECTION */
 /**********************************/
 .section-testimonials {
   background-color: #fdf2e9;
@@ -521,14 +521,13 @@
   border-top: 1px solid #eee;
 }
 
-.grid--footer{
+.grid--footer {
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
-.logo-col{
+.logo-col {
   display: flex;
   flex-direction: column;
-
 }
 
 .footer-logo {
@@ -554,13 +553,13 @@
   margin-top: auto;
 }
 
-.contacts{
+.contacts {
   font-style: normal;
   font-size: 1.6rem;
   line-height: 1.6rem;
 }
 
-.address{
+.address {
   margin-bottom: 2.4rem;
 }
 
