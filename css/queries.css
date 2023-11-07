@@ -2,7 +2,7 @@
 Instead, 1rem = 1em = 16px */
 
 /**********************************/
-/* BELOW 1344PX (Smaller Desktops) */
+/* BELOW 1344px (Smaller Desktops) */
 /**********************************/
 
 @media (max-width: 84em) {
@@ -13,9 +13,24 @@ Instead, 1rem = 1em = 16px */
   .heading-primary {
     font-size: 4.4rem;
   }
+
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+/**********************************/
+/* BELOW 1200px (Landscape Tablet) */
+/**********************************/
+
+@media (max-width: 75em) {
+  html {
+    /* Percentage of user's browser font-size setting 
+   9px / 16px = 56.25%
+  */
+    font-size: 56.25%;
+  }
+
 }
 
 /* 
