@@ -17,7 +17,15 @@ btnNavEl.addEventListener("click", function () {
 const alllinks = document.querySelectorAll("a:link");
 alllinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
-    // Disable default html scroll behavior
     e.preventDefault();
+    // Disable default html scroll behavior
+    const href = link.getAttribute("href");
+
+    // Scroll back to top
+    if (href == "#")
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
   });
 });
