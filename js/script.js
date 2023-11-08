@@ -52,6 +52,8 @@ const obs = new IntersectionObserver(
     const ent = entries[0];
     // Show sticky nav
     if (!ent.isIntersecting) document.body.classList.add("sticky");
+    // Hide sticky nav
+    if (ent.isIntersecting) document.body.classList.remove("sticky");
   },
   {
     // In the viewport
